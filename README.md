@@ -15,7 +15,7 @@ This notebook will train  **Logistic regression**, **KNN**, **SVC**, **Random Fo
 - And a combination of them all, referred to as `Combination Assay`, constituting of `Mutations` + `CA19-9` + `CEA` + `HGF` + `OPN`
 
 
-Based on earlier experiemnts in notebooks "*CancerSEEK -- New Sequencing - Testing Pre-processing steps (1)*" and "*CancerSEEK -- New Sequencing - Testing Pre-processing steps (2) - more Models*" the overall best and most consistent pre-processing step turned out to be the approach used in the publication; **Winsorizing the healthy samples**. As some of the models (parametric models) demonstrated better performance on scaled data the input data will thus be scaled to accomodate such requirements. 
+Based on earlier experiements in notebooks "*CancerSEEK -- New Sequencing - Testing Pre-processing steps (1)*" and "*CancerSEEK -- New Sequencing - Testing Pre-processing steps (2) - more Models*" the overall best and most consistent pre-processing step turned out to be the approach used in the publication; **Winsorizing the healthy samples**. As some of the models (parametric models) demonstrated better performance on scaled data the input data will thus be scaled to accomodate such requirements. 
 
 
 
